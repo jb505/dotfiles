@@ -1,6 +1,5 @@
-# dot_files
-# dot_files
-# dot_files
-# dot_files
-# dot_files
-# dot_files
+# Dot Files
+- tmux
+- vim
+- zsh
+- p10k
