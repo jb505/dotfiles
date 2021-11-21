@@ -1,5 +1,5 @@
 # Dot Files
-- tmux
+- __tmux__
 - vim
 - zsh
 - p10k
