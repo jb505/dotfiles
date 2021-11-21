@@ -1,5 +1,39 @@
 # Dot Files
 - __tmux__
+    - 256 Color Support
+    - Automatically renumber windows
+    - Fluid prefix bind (Ctrl+a)
+    - Mouse Support
+    - Easy copy and paste
 - __vim__
+    - Custom emoji title
+    - Numer lines with relative number
+    - No swapfile
+    - Smart case and indent
+    - Theme: Tokyo Night
+    - Vim-Plug:
+        - Airline
+        - NerdTree
+        - Auto Pairs
+        - Fuzzy Finder
+        - Pythonsense
+        - Pep 8 Indent
+        - Ale
+        - Jedi
+        - Polyglot
 - __zsh__
+    - Theme: powerlevel10k
+    - Plugins: 
+        - zsh-autosuggestions
+        - sudo
+        - Web-search
+        - copydir
+        - history
 - __p10k__
+    - Ascii
+    - Nerd Font: Hack Regular
+    - Compact
+    - Fluent
+    - Angled
+    - Blurred
+    - Insant prompt
