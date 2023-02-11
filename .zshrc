@@ -1,4 +1,5 @@
 export TERM=xterm-256color
+# export TERMINAL=gnome-terminal
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
@@ -11,7 +12,7 @@ fi
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/home/div/.oh-my-zsh"
+export ZSH="/home/jb/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -79,10 +80,9 @@ COMPLETION_WAITING_DOTS="true"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git 
-        zsh-autosuggestions
         sudo
         web-search
-        copydir
+        copypath
         history
         )
 
@@ -110,17 +110,17 @@ source $ZSH/oh-my-zsh.sh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 #
-# Aliases
-alias c="clear"
-alias vcs="python3 /home/div/sandbox/python/vimcs/main.py"
-alias l="ls -la --group-directories-first"
-alias sdn="shutdown now"
-umask 077
 
-# Functions
-#rmd() {
-#    python3 $HOME/sandbox/bremind/reminder.py $1 $2 &
-#:}
+# Load zsh_aliases
+if [ -f ~/.zsh_aliases ]; then
+        . ~/.zsh_aliases
+fi
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+# SSH-AGENT
+# eval $(ssh-agent) > /dev/null
+# ssh-add -q ~/.ssh/mykey
+# trap eval $(ssh-agent -k) EXIT
+

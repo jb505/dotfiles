@@ -15,8 +15,8 @@
 " ---------- MY SETTINGS ----------
 "Title
 set title
-set titlestring=MY\ \ \(｡◕‿◕｡)\ \ \VIM
-set titlestring+=\ \ \%F\ %m
+set titlestring=(｡◕‿◕｡)
+set titlestring+=\ \%F\ %m
 
 " Syntax
 syntax on

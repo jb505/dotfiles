@@ -1,0 +1,17 @@
+# u-rwx g-0 o-0
+umask 0077
+
+####################### 
+#	ALIASES
+####################### 
+alias c="clear"
+alias l="ls -lA --group-directories-first"
+alias sd="shutdown now"
+alias pl="pip3 list"
+alias vim="nvim"
+alias jenv="source ~/jitr/jitr_env/bin/activate"
+alias da="deactivate"
+
+####################### 
+#	FUCTIONS
+####################### 
