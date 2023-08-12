@@ -5,11 +5,8 @@ umask 0077
 #	ALIASES
 ####################### 
 
-alias c="clear"
 alias l="ls -lA --group-directories-first"
 alias vim="nvim"
-alias jenv="source ~/jitr/jitr_env/bin/activate"
-alias da="deactivate"
 
 ####################### 
 #	FUCTIONS
